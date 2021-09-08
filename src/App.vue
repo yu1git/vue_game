@@ -10,16 +10,12 @@
   </div>
 </template>
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
-// import GoodBye from "./components/GoodBye.vue";
 import Quiz from "./components/Quiz.vue";
 import Answer from "./components/Answer.vue";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld,
-    // GoodBye,
     Quiz,
     Answer,
   },

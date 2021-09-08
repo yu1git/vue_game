@@ -1,6 +1,6 @@
 <template>
   <div class="alert alert-info">
-    <h2>{{ title }}</h2>
+    <h2 class="text-info display-5">{{ title }}</h2>
     <p>{{ quiz }}</p>
   </div>
 </template>
