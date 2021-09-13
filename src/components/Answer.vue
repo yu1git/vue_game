@@ -14,9 +14,9 @@ export default {
   data() {
     return {
       message: "",
+
     };
   },
-  
   methods: {
     doAction() {
       if (this.answer === "回答2") {
