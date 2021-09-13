@@ -16,6 +16,7 @@ export default {
       message: "",
     };
   },
+  
   methods: {
     doAction() {
       if (this.answer === "回答2") {
@@ -25,7 +26,7 @@ export default {
       } else {
         this.message = "不正解";
       }
-    },
-  },
-};
+    }
+  }
+}
 </script>
